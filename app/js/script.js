@@ -15,7 +15,7 @@ function elementClick(e) {
     e.target.classList.add('select__item--background');
 }
 
-var requestURL = 'https://mindmaximal.github.io/select/document.json';
+var requestURL = 'https://mindmaximal.github.io/CookieSide-test-task/document.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
